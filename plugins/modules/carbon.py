@@ -8,7 +8,7 @@ aiohttpsession = ClientSession()
 C = "Successfully Created Your Carbon"
 F = InlineKeyboardMarkup(
 [[
-     InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/dk_botx")
+     InlineKeyboardButton("Channel🍿", url="https://t.me/m5movietelegram")
 ]]
 )
 
