@@ -567,7 +567,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about_menu":
         buttons = [[
         InlineKeyboardButton('🍿Live Movies', url='https://cineflixhome.xyz'),
-        InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/m5movietelegram'),
+        InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/+0uP__N3pDWgyNGM1'),
         InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
