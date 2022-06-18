@@ -1081,9 +1081,7 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
             **locals()
         )
     else:
-        mention_bot=temp.MENTION,
-        mention_user=message.from_user.mention if message.from_user,
-        cap = f"<b>Hai 👋 {message.from_user.mention} </b> 😍\n\n<b>📁 Found ✨  Files For Your Query : {search} 👇</b> "
+        cap = f"<b>Hai 👋 {message.from_user.mention_user} </b> 😍\n\n<b>📁 Found ✨  Files For Your Query : {search} 👇</b> "
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
