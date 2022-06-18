@@ -1081,6 +1081,7 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
             **locals()
         )
     else:
+        mention = mention
         cap = f"<b>Hai 👋 {message.from_user.mention} </b> 😍\n\n<b>📁 Found ✨  Files For Your Query : {search} 👇</b> "
     if imdb and imdb.get('poster'):
         try:
